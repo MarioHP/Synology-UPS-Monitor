@@ -8,8 +8,8 @@ Monitor je napájený z USB a tak jej jde připojit přímo do volného portu US
 V plánu je o něco dražší verze pro LilyGO TTGO T-Displej ESP32 s přímým zobrazením základních hodnot UPS na displeji.
 
 <p float="left">
-  <img width="450" alt="image1" src="https://github.com/user-attachments/assets/5ea1c44d-da5c-4d18-a8ea-18e1f163d641" />
-  <img width="450" alt="image2" src="https://github.com/user-attachments/assets/0f2d1d25-95f7-46e9-961b-ad1a9cba586f" />
+  <img width="400" alt="image1" src="https://github.com/user-attachments/assets/5ea1c44d-da5c-4d18-a8ea-18e1f163d641" />
+  <img width="400" alt="image2" src="https://github.com/user-attachments/assets/0f2d1d25-95f7-46e9-961b-ad1a9cba586f" />
 </p>
 
 ## **Hardware:**
