@@ -16,7 +16,10 @@ V plánu je o něco dražší verze pro LilyGO TTGO T-Displej ESP32 s přímým 
 https://www.laskakit.cz/iot-esp8266-lua-nodemcu-amica-cp2102-wifi-modul/
 
 Krabička (3D tisk):
+
 https://www.printables.com/model/1359545-synology-ups-monitor
+
+https://makerworld.com/en/models/1620122-synology-ups-monitor-with-webserver
 
 
 ## **Nastavení:**
