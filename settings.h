@@ -9,8 +9,6 @@ const char* WIFI_PASSWORD = "";
 const IPAddress local_IP(xxx,xxx,xxx,xxx);
 const IPAddress gateway(xxx,xxx,xxx,xxx);
 const IPAddress subnet(255,255,255,0);
-const IPAddress primaryDNS(8, 8, 8, 8);   // Google DNS
-const IPAddress secondaryDNS(8, 8, 4, 4); // Google DNS
 
 // UPS server nastavení
 const char* upsHost = "192.168.2.100"; // IP adresa NASu / UPS serveru
