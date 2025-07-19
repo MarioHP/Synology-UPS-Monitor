@@ -1,11 +1,13 @@
 # ** Synology-UPS-Monitor**
 Jednoduchý UPS monitor pro Synology a UPS CyberPower s webovým serverem.
 
-<img width="709" height="1123" alt="image" src="https://github.com/user-attachments/assets/5ea1c44d-da5c-4d18-a8ea-18e1f163d641" />
-
-
+<p float="left">
+  <img width="450" alt="image1" src="https://github.com/user-attachments/assets/5ea1c44d-da5c-4d18-a8ea-18e1f163d641" />
+  <img width="450" alt="image2" src="https://github.com/user-attachments/assets/0f2d1d25-95f7-46e9-961b-ad1a9cba586f" />
+</p>
 
 ## **Hardware:**
+
 
 ## **Nastavení:**
 
@@ -14,7 +16,7 @@ Jednoduchý UPS monitor pro Synology a UPS CyberPower s webovým serverem.
 > [!NOTE]
 V nastavení Synology musí být stejná IP adresa jaká je v settings.h!
 
-<img width="767" height="810" alt="image" src="https://github.com/user-attachments/assets/977d3a80-e999-47c3-a620-80372b1bf530" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/977d3a80-e999-47c3-a620-80372b1bf530" />
 
 
 ## **Software a funkce**
