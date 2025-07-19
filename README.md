@@ -36,7 +36,7 @@ Výchozí nastavení v **settings.h**
 - WIFI_SSID = ""; – název wifi
 - WIFI_PASSWORD = "";  – heslo na wifi
 
-- IPAddress local_IP(xxx,xxx,xxx,xxx); – IP adresa nonitoru v síti a v nastavení Synology
+- IPAddress local_IP(xxx,xxx,xxx,xxx); – IP adresa nonitoru v síti a v nastavení Synology (např. 192.168.2.119)
 - IPAddress gateway(xxx,xxx,xxx,xxx); – výchozí brána
 - IPAddress subnet(255,255,255,0); – maska sítě
  
