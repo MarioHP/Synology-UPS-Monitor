@@ -1,5 +1,6 @@
-# ** Synology-UPS-Monitor**
-Jednoduchý monitor pro Synology a UPS CyberPower s webovým serverem.
+# **Synology UPS Monitor**
+Jednoduchý monitor pro Synology a UPS CyberPower s webovým serverem. Jazyková verze Česky a English.
+Monitor je napájený z USB a tak jej jde připojit přímo do volného portu USB Synology.
 
 <p float="left">
   <img width="450" alt="image1" src="https://github.com/user-attachments/assets/5ea1c44d-da5c-4d18-a8ea-18e1f163d641" />
@@ -8,6 +9,10 @@ Jednoduchý monitor pro Synology a UPS CyberPower s webovým serverem.
 
 ## **Hardware:**
 https://www.laskakit.cz/iot-esp8266-lua-nodemcu-amica-cp2102-wifi-modul/
+
+Krabička (3D tisk):
+
+
 
 ## **Nastavení:**
 
@@ -35,4 +40,4 @@ Výchozí nastavení v **settings.h**
 
 - #define DEFAULT_LANGUAGE "cz" - výchozí jazyk čeština
   
-- const unsigned long WEBPAGE_RELOAD_INTERVAL_MS = 60000;
+- const unsigned long WEBPAGE_RELOAD_INTERVAL_MS = 60000; - obnova stránky weového serveru.
