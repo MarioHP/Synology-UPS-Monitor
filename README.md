@@ -37,10 +37,10 @@ Výchozí nastavení v **settings.h**
 - IPAddress local_IP(xxx,xxx,xxx,xxx); – IP adresa nonitoru v síti a v nastavení Synology
 - IPAddress gateway(xxx,xxx,xxx,xxx); – výchozí brána
 - IPAddress subnet(255,255,255,0); – maska sítě
-
+ 
 - const uint16_t upsPort = 3493; - port UPS
-- const char* upsName = "ups"; 
-
+- const char* upsName = "ups"; - jméno UPS
+ 
 - #define DEFAULT_LANGUAGE "cz" - výchozí jazyk čeština
-  
+ 
 - const unsigned long WEBPAGE_RELOAD_INTERVAL_MS = 60000; - obnova stránky webového serveru (1 minuta).
