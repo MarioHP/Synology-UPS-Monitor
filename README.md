@@ -1,6 +1,8 @@
 # **Synology UPS Monitor**
-Jednoduchý a levný monitor pro Synology a UPS CyberPower s webovým serverem. Jazyková verze Česky a English.
+Jednoduchý a levný monitor pro **Synology** a UPS **CyberPower** s webovým serverem. Jazyková verze Česky a English.
 Monitor je napájený z USB a tak jej jde připojit přímo do volného portu USB Synology.
+
+>Testováno pouze s UPS CyberPower UT850EG, ale bude pravděpodobně funkční i s jinými UPS.
 
 > [!NOTE]
 V plánu je o něco dražší verze pro LilyGO TTGO T-Displej ESP32 s přímým zobrazením základních hodnot UPS na displeji.
