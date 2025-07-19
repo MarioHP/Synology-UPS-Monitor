@@ -11,7 +11,7 @@ const IPAddress gateway(xxx,xxx,xxx,xxx);
 const IPAddress subnet(255,255,255,0);
 
 // UPS server nastavení
-const char* upsHost = "192.168.2.100"; // IP adresa NASu / UPS serveru
+const char* upsHost = "xxx,xxx,xxx,xxx"; // IP adresa NASu / UPS serveru
 const uint16_t upsPort = 3493;
 const char* upsName = "ups";
 
