@@ -1,5 +1,5 @@
 # ** Synology-UPS-Monitor**
-Jednoduchý UPS monitor pro Synology a UPS CyberPower s webovým serverem.
+Jednoduchý monitor pro Synology a UPS CyberPower s webovým serverem.
 
 <p float="left">
   <img width="450" alt="image1" src="https://github.com/user-attachments/assets/5ea1c44d-da5c-4d18-a8ea-18e1f163d641" />
@@ -7,7 +7,7 @@ Jednoduchý UPS monitor pro Synology a UPS CyberPower s webovým serverem.
 </p>
 
 ## **Hardware:**
-
+https://www.laskakit.cz/iot-esp8266-lua-nodemcu-amica-cp2102-wifi-modul/
 
 ## **Nastavení:**
 
@@ -26,7 +26,7 @@ Výchozí nastavení v **settings.h**
 - WIFI_SSID = ""; – název wifi
 - WIFI_PASSWORD = "";  – heslo na wifi
 
-- IPAddress local_IP(xxx,xxx,xxx,xxx); – IP adresa nonitoru v síti
+- IPAddress local_IP(xxx,xxx,xxx,xxx); – IP adresa nonitoru v síti a v nastavení Synology
 - IPAddress gateway(xxx,xxx,xxx,xxx); – výchozí brána
 - IPAddress subnet(255,255,255,0); – maska sítě
 
