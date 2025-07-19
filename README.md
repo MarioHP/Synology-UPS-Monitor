@@ -1,0 +1,1 @@
+# Synology-UPS-Monitor
