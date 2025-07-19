@@ -22,7 +22,7 @@ Krabička (3D tisk):
 >Ovládací panel - Hardware a napájení - UPS
 
 > [!NOTE]
-V nastavení Synology musí být stejná IP adresa jaká je v settings.h!
+V nastavení Synology musí být stejná IP adresa, jaká je **IP adresa nonitoru v síti** v settings.h!
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/977d3a80-e999-47c3-a620-80372b1bf530" />
 
