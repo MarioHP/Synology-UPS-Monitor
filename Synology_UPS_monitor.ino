@@ -68,7 +68,7 @@ void setup() {
   Serial.begin(115200);
 
   // Nastavení statické IP
-  if (!WiFi.config(local_IP, gateway, subnet, primaryDNS, secondaryDNS)) {
+  if (!WiFi.config(local_IP, gateway, subnet)) {
     Serial.println("Chyba při nastavování statické IP!");
   }
 
