@@ -2,7 +2,7 @@
 Jednoduchý a levný monitor pro **Synology** a UPS **CyberPower** s webovým serverem. Jazyková verze Česky a English.
 Monitor je napájený z USB a tak jej jde připojit přímo do volného portu USB Synology.
 
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/b3a737a7-aee7-4f38-9ea7-2cadb1fae927" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/dab9d36d-5157-4f36-8195-b14481aa5054" />
 
 >Testováno pouze s UPS CyberPower UT850EG, ale bude pravděpodobně funkční i s jinými UPS.
 
