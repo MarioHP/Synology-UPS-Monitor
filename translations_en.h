@@ -45,8 +45,12 @@ std::map<String, String> paramTranslations_en = {
   { "ups.timer.shutdown", "Shutdown Timer (s)" },
   { "ups.timer.start", "Start Timer (s)" },
   { "ups.vendorid", "Vendor ID" },
+  // Html
   { "page_title", "UPS Status" },
   { "uptime_label", "Uptime" },
+  { "refresh", "Page refresh" },
+  { "firmware.update",  "Firmware Update" },
+  // Main table
   { "table_param", "Parameter" },
   { "table_value", "Value" }
 };
