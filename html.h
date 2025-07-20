@@ -7,7 +7,8 @@
 
 String generateHtml(const std::map<String, String>& upsData, const std::map<String, String>& translations, const String& lang = String(DEFAULT_LANGUAGE)) {
   unsigned long totalSeconds = millis() / 1000;
-  unsigned long minutes = totalSeconds / 60;
+  unsigned long hours = totalSeconds / 3600;
+  unsigned long minutes = (totalSeconds % 3600) / 60;
   unsigned long seconds = totalSeconds % 60;
 
   String html;
@@ -134,7 +135,7 @@ String generateHtml(const std::map<String, String>& upsData, const std::map<Stri
   // Uptime
   html += "</tbody></table><p>";
   html += translations.at("uptime_label");
-  html += ": " + String(minutes) + " min " + String(seconds) + " s</p>";
+  html += ": " + String(hours) + " h " + String(minutes) + " min " + String(seconds) + " s</p>";
   html += "<p>WiFi: " + String(WiFi.RSSI()) + " dBm</p>";
 
   html += "</body></html>";
