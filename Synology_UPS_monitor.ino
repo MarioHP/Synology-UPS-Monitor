@@ -17,18 +17,19 @@ std::map<String, String> upsData;
 void updateUpsData() {
   upsData.clear();
 
-if (!client.connect(upsHost, upsPort)) {
-  Serial.println("Nelze se připojit k UPS serveru");
-  return;
-}
+  if (!client.connect(upsHost, upsPort)) {
+    Serial.println("Nelze se připojit k UPS serveru");
+    return;
+  }
 
   client.printf("LIST VAR %s\n", upsName);
-  unsigned long timeout = millis() + 2000;
+  unsigned long startTime = millis();
 
-  while (millis() < timeout) {
+  while (millis() - startTime < 2000) { // 2 sekundy
     while (client.available()) {
       String line = client.readStringUntil('\n');
       line.trim();
+
       if (line.startsWith("VAR")) {
         int a = line.indexOf(' ', 4);
         int b = line.indexOf(' ', a + 1);
@@ -42,9 +43,11 @@ if (!client.connect(upsHost, upsPort)) {
         }
       }
     }
+    delay(10); 
   }
 
   client.stop();
+  Serial.println("Načteno proměnných z UPS: " + String(upsData.size()));
 }
 
 // Obsluha webové stránky
