@@ -51,3 +51,12 @@ Výchozí nastavení v **settings.h**
 - #define DEFAULT_LANGUAGE "cz" - výchozí jazyk čeština
  
 - const unsigned long WEBPAGE_RELOAD_INTERVAL_MS = 60000; - obnova stránky webového serveru (1 minuta).
+
+## **html_basic**
+
+> [!NOTE]
+Základní data o UPS. Při použití **přejmenuj na html.h**
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/92823cf1-2133-48a0-a41c-0bd934d26013" />
+
+
