@@ -45,10 +45,14 @@ std::map<String, String> paramTranslations_cz = {
   { "ups.timer.shutdown", "Časovač vypnutí (s)" },
   { "ups.timer.start", "Časovač spuštění (s)" },
   { "ups.vendorid", "ID výrobce" },
-  { "page_title", "Stav UPS" },
+  // Html
+  { "page_title", "UPS monitor" },
   { "uptime_label", "Čas od spuštění" },
+  { "refresh", "Obnova stránky" },
+  { "firmware.update",  "Aktualizace firmwaru" }, 
+  // Hlavni tabulka
   { "table_param", "Parametr" },
-  { "table_value", "Hodnota" }
+  { "table_value", "Hodnota" },
 };
 
 #endif
