@@ -5,7 +5,7 @@
 #include <Arduino.h>
 // čeština
 std::map<String, String> paramTranslations_cz = {
-  { "battery.charge", "Nabíjení baterie (%)" },
+  { "battery.charge", "Nabití baterie (%)" },
   { "battery.charge.low", "Nízký stav baterie (%)" },
   { "battery.charge.warning", "Varování úrovně baterie (%)" },
   { "battery.mfr.date", "Výrobce baterie / datum" },
