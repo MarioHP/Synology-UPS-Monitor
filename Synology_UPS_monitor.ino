@@ -1,4 +1,4 @@
-// Board: NodeMCU 1.0 (ESP-12E)
+// Board: NodeMCU 1.0 (ESP-12E) Library: ElegantOTA ver. 2.2.8
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 #include "settings.h"
@@ -7,6 +7,7 @@
 #include "translations_en.h"
 #include <Arduino.h>
 #include <map>
+#include <ElegantOTA.h>
 
 WiFiClient client;
 ESP8266WebServer server(80);
@@ -68,7 +69,7 @@ void setup() {
   Serial.begin(115200);
 
   // Nastavení statické IP
-  if (!WiFi.config(local_IP, gateway, subnet)) {
+  if (!WiFi.config(local_IP, gateway, subnet, primaryDNS, secondaryDNS)) {
     Serial.println("Chyba při nastavování statické IP!");
   }
 
@@ -82,6 +83,9 @@ void setup() {
   Serial.println("\nWiFi připojeno, IP: " + WiFi.localIP().toString());
 
   server.on("/", handleRoot);
+  // Start webserveru a OTA
+  ElegantOTA.begin(&server);
+
   server.begin();
   Serial.println("HTTP server spuštěn");
 }
