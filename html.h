@@ -137,7 +137,7 @@ String generateHtml(const std::map<String, String>& upsData, const std::map<Stri
   html += translations.at("uptime_label");
   html += ": " + String(hours) + " h " + String(minutes) + " min</p>";
   html += "<p>WiFi: " + String(WiFi.RSSI()) + " dBm</p>";
-  html += "<p><a href='/update'>Aktualizace firmwaru (ElegantOTA)</a></p>";
+  html += "<p><a href='/update'>Firmware update (ElegantOTA)</a></p>";
 
   html += "</body></html>";
 
