@@ -142,8 +142,8 @@ String generateHtml(const std::map<String, String>& upsData, const std::map<Stri
     "battery.mfr.date",
     "battery.type",     
     "battery.charge",
-    "battery.runtime",
     "battery.voltage",
+    "battery.runtime",
     "input.voltage",
     "output.voltage",
     "ups.load"
