@@ -19,7 +19,7 @@ https://www.laskakit.cz/iot-esp8266-lua-nodemcu-amica-cp2102-wifi-modul/
 
 Krabička (3D tisk):
 
-https://makerworld.com/en/models/1620122-synology-ups-monitor-with-webserver
+https://www.printables.com/model/1359545-synology-ups-monitor-with-webserver
 
 
 ## **Nastavení:**
